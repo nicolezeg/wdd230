@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+
+    header img {
+        width: 10%;
+        height: 10%;
+        margin-left: 10rem;
+    }
+    header h1 {
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+    .container {
+        flex-direction: row; /* Switch to two-column layout on larger screens */
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 40%; /* Each card takes up 40% of the width, leaving some space between them */
+    }
+}
