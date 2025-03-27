@@ -34,7 +34,6 @@
     
     .container {
         flex-direction: row; /* Switch to two-column layout on larger screens */
-        justify-content: space-between;
     }
     .card {
         flex: 40%; /* Each card takes up 40% of the width, leaving some space between them */
@@ -52,5 +51,10 @@
     }
     #company-spotlights {
         flex-direction: row;
+    }
+    .spotlight {
+        width: 400px;  /* Fixed width */
+        height: 160px; 
+        margin: 1rem;
     }
 }
