@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huanuco Chamber of Commerce - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Nicole Zegarra's chamber website project assignment from WDD 230 - Web Frontend Development">
+    <meta name="author" content="Nicole Zegarra">
+    <meta property="og:title" content="Nicole's Chamber Website Project">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://4.bp.blogspot.com/-6x39_N4aZT8/UfgOerwv4mI/AAAAAAAACiw/vy1N-PtUgV0/s1600/huanuco.jpg">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+    <link rel="icon" href="favicon3.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="scripts/hamButton.js" defer=""></script>
+    <script src="scripts/getDates.js" defer=""></script>
+    <script src="scripts/weather.js" defer=""></script>
+
+</head>
+<body>
+    <header>
+        <h1>Huanuco Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <ul class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </ul>
+    </nav>
+    <main>
+        <div class="call-to-action">
+        <button type="join"><a href="#"></a>Join the Chamber</button>
+        </div>
+        <picture class="hero">
+            <img src="images/boost-business1.webp" alt="hero image">
+        </picture>
+
+        <div class="container">
+        <section class="card">
+            <h2>Events</h2>
+            <h3>Business Networking Mixer</h3>
+            <p>March 25th, 6:00 PM at the Huánuco Conference Center: This informal gathering will allow local business owners and entrepreneurs to meet, exchange ideas, and explore potential collaborations</p>
+        </section>
+        <section class="card">
+            <h2>Weather</h2>
+            <div class="weather-icon">
+                <img src="images/sandstorm_sun_icon.png" alt="Sunny" width="50" height="50" class="desktop">
+                <img src="images/partly-cloudy-icon.svg" alt="Weather Icon" class="mobile"/>
+            </div>
+            <ul class="info-weather">
+                <li>Temperature: 10°C</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>Wind: 5 km/h</li>
+                <li id="wind-chill"> Wind Chill: </li>
+            </ul>
+        </div>
+        </section>
+        <h1>Member Spotlihgts</h1>
+        <section id="company-spotlights">
+            <div class="spotlight">
+              <h2>Fibonacci Institute - Master the financial world!</h2>
+              <p>+51 994 998 625</p>
+              <a href="http://www.fibonacci.com" target="_blank">Visit us at www.fibonacci.com</a>
+            </div>
+            
+            <div class="spotlight">
+              <h2>Senati - It is up to you to challenge your own limits</h2>
+              <p>+51 969 303 204</p>
+              <a href="http://www.senati.com" target="_blank">Explore our services at www.senati.com</a>
+            </div>
+            
+            <div class="spotlight">
+              <h2>D'Pelos - Start your path to success</h2>
+              <p>+51 965 276 112</p>
+              <a href="http://www.dpelos.com" target="_blank">Find out more at www.dpelos.com</a>
+            </div>
+          </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Huanuco Chamber <span id="peruvianFlag"></span> 🇵🇪</p>
+        <p>Nicole Zegarra</p>
+        <p>WDD 230 Project</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
