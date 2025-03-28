@@ -19,6 +19,7 @@
         <script src="scripts/getDates.js" defer=""></script>
         <script src="scripts/hamburgerButton.js" defer=""></script>
         <script src="scripts/modeB.js" defer=""></script>
+        <script src="scripts/visitsNum.js" defer=""></script>
     </head>
     <body>
         <div id="mode">
@@ -38,6 +39,14 @@
             </ul>
         </nav>
         <main>
+            <picture class="hero">
+                <source media="(max-width: 500px)" srcset="images/hero_small.webp">
+                <source media="(max-width: 800px)" srcset="images/hero_medium.webp">
+                <img src="images/hero_large.webp" alt="hero image">
+            </picture>
+            <div class="label">
+                <p>Arequipa Temple</p>
+            </div>
             <h1>WDD 230: Web Frontend Development</h1>
             <div class="container">
                 <section class="card">
@@ -53,9 +62,13 @@
                 </section>
                 <section class="card">
                     <h2>Information</h2>
+                    <p><span class="label-visits">Number of Visits: </span><span class="visits"></span></p>
                 </section>
             </div>
         </main>
+        <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125776.37207147312!2d-76.3758365571928!3d-9.8912769307503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a7c30abab7fe87%3A0xabd0c681ad7e5da0!2zSHXDoW51Y28!5e0!3m2!1ses!2spe!4v1743117689777!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <footer>
             <p>&copy; <span id="currentYear"></span> Nicole Zegarra, Peru <span id="peruvianFlag"></span> 🇵🇪</p>
             <p><span id="lastModified"></span></p>
