@@ -1,0 +1,38 @@
+/* Basic Styling for the Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Zebra Striping for tbody */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+/* Add hover effect */
+tbody tr:hover {
+    background-color: #d0d0d0;
+}

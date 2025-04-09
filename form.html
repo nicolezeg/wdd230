@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <h1>Team Activity: Form</h1>
+    </header>
+    <main>
+        <h2>Login</h2>
+
+        <form action="record.html" method="get" onsubmit="return validateForm()">
+            <!-- Username Field -->
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <!-- Password Field -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required 
+                    pattern="^[a-zA-Z0-9]{8,}$" 
+                    title="Password must be at least 8 characters long and contain only letters and numbers.">
+            </div>
+
+            <!-- Password Confirmation Field -->
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required
+                    pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" 
+                    title="Please enter a valid email address with the byui.edu domain.">
+            </div>
+
+            <!-- Page Rating -->
+            <div>
+                <label for="rating">Page Rating (1 to 10):</label>
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" 
+                    onchange="document.getElementById('ratingValue').textContent = this.value;">
+                <span id="ratingValue">5</span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+        <footer>
+            <p>&copy; 2025 Team Activity</p>
+        </footer>
+    </main>
+</body>
+</html>

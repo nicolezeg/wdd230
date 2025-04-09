@@ -57,4 +57,33 @@
         height: 160px; 
         margin: 1rem;
     }
+    /*Discover css*/
+    .discover-container {
+        display: flex;
+      }
+      
+    .sidebar {
+        width: 25%;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    section {
+        flex-direction: column;
+        border: 1px solid rgb(204, 204, 204);
+        margin: 10px;
+    }
+    section h3 {
+        margin-top: 10px;
+    }
+    
+    section p, li {
+        font-size: 14px;
+        color: #555;
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
