@@ -86,4 +86,30 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
+    /* Member Level Benefits */
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    form {
+        margin: 0 auto;
+        padding: 2em;
+        background-color: white;
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 2rem;
+    }
+    .benefits {
+        max-width: 600px;
+        margin: 2rem;
+        background-color: white;
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .membership-benefit li{
+        text-align: left;
+    }
+
 }

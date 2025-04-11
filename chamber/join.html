@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huanuco Chamber of Commerce - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Nicole Zegarra's chamber website project assignment from WDD 230 - Web Frontend Development">
+    <meta name="author" content="Nicole Zegarra">
+    <meta property="og:title" content="Nicole's Chamber Website Project">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://4.bp.blogspot.com/-6x39_N4aZT8/UfgOerwv4mI/AAAAAAAACiw/vy1N-PtUgV0/s1600/huanuco.jpg">
+    <meta property="og:url" content="https://nicolezeg.github.io/wdd230/chamber/index.html">
+    <link rel="icon" href="favicon3.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="scripts/hamButton.js" defer=""></script>
+    <script src="scripts/getDates.js" defer=""></script>
+    <script src="scripts/weather.js" defer=""></script>
+    <script src="scripts/timestamp.js" defer=""></script>
+
+</head>
+<body>
+    <header>
+        <h1>Huanuco Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <ul class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="join.html">Join</a>
+        </ul>
+    </nav>
+    <main class="form">
+        <h2>Join Us</h2>
+
+        <form action="thankyou.html" method="get">
+            <!-- Names Field -->
+            <div>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" required>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lName" name="lName" required>
+            </div>
+
+            <!-- Position Field -->
+            <div>
+                <label for="title">Title/Position:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email Address: </Address>:</label>
+                <input type="email" id="email" name="email" required
+                    placeholder="example@domain.com">
+            </div>
+
+            <!-- Phone number Field -->
+            <div>
+                <label for="telephone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                  
+            </div>
+
+            <!-- Organization Field -->
+            <div>
+                <label for="business">Organization's Name: </label>
+                <input type="text" id="organization" name="organization" required>
+            </div>
+
+            <!-- Membership Level Field -->
+            <div>
+                <label for="membershipLevel">Membership Level: </label>
+                <select name="membershipLevel" id="membershipLevel">
+                    <option value="np">NP Membership (Free)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                  </select>
+            </div>
+
+            <!-- Organization Description Field -->
+            <div>
+                <label for="description">Organization Description: </label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+
+            <!-- Timestamp -->
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="benefits">
+            <h2>Membership Levels & Benefits</h2>
+          
+            <div class="membership-benefit">
+              <h3>🟢 NP Membership (Free)</h3>
+              <ul>
+                <li>Access to community networking events</li>
+                <li>Inclusion in member directory</li>
+                <li>Monthly newsletter subscription</li>
+              </ul>
+            </div>
+          
+            <div class="membership-benefit">
+              <h3>🥉 Bronze Membership</h3>
+              <ul>
+                <li>All NP Membership benefits</li>
+                <li>Discounts on ticketed events</li>
+                <li>Organization name listed on our website</li>
+                <li>Early access to select programs</li>
+              </ul>
+            </div>
+          
+            <div class="membership-benefit">
+              <h3>🥈 Silver Membership</h3>
+              <ul>
+                <li>All Bronze Membership benefits</li>
+                <li>Free access to quarterly training workshops</li>
+                <li>Social media promotion of your organization</li>
+                <li>Priority placement in member directory</li>
+              </ul>
+            </div>
+          
+            <div class="membership-benefit">
+              <h3>🥇 Gold Membership</h3>
+              <ul>
+                <li>All Silver Membership benefits</li>
+                <li>Homepage spotlight feature (advertising)</li>
+                <li>Exclusive invitations to VIP events</li>
+                <li>Custom collaboration opportunities</li>
+              </ul>
+            </div>
+          </div>          
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Huanuco Chamber <span id="peruvianFlag"></span> 🇵🇪</p>
+        <p>Nicole Zegarra</p>
+        <p>WDD 230 Project</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
