@@ -1,0 +1,28 @@
+{
+    "familyName": "Watson",
+    "moveInDate": "08-05-2024",
+    "numberOfMembers": 4,
+    "visitedByBishopric": true,
+    "members": [
+        {
+            "name": "Jack Watson",
+            "gender": "Male",
+            "birthdate": "22-06-1986"
+        },
+        {
+            "name": "Rose Watson",
+            "gender": "Female",
+            "birthdate": "08-02-1990"
+        },
+        {
+            "name": "Sophie Watson",
+            "gender": "Female",
+            "birthdate": "25-10-2003"
+        },
+        {
+            "name": "Ethan Watson",
+            "gender": "Male",
+            "birthdate": "12-08-2008"
+        }
+    ]
+}
