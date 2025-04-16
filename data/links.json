@@ -40,7 +40,11 @@
           {
             "url":"week03/images/landscape.webp",
             "title":"WebP Image File Format"
-          },         
+          }, 
+          {
+            "url":"week03/lazyload.html",
+            "title":"Lazy Loaading"
+          }, 
           {
               "url":"week03/responsive-images.html",
               "title":"Responsive Images"
