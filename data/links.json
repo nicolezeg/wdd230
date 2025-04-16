@@ -38,8 +38,8 @@
         "week": "Week 3",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week03/images/landscape.webp",
+            "title":"WebP Image File Format"
           },
           {
             "url":"week01/media-query.html",
