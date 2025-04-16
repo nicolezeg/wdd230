@@ -1,0 +1,82 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url":"week01/holygrail.html",
+          "title":"HG Layout"
+        },
+        {
+          "url":"week01/media-query.html",
+          "title":"mQueries"
+        },
+        {
+            "url":"week01/chamber-site-plan.html",
+            "title":"Chamber Site Plan"
+        }
+      ]
+    },
+    {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/design.html",
+            "title":"Web Design Principles"
+          },
+          {
+            "url":"week02/https://codepen.io/Nicole-Salome-Zegarra-Garcia/pen/yyLjJzB",
+            "title":"Hamburger Menu"
+          },
+          {
+              "url":"week02/bom.html",
+              "title":"BOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"mQueries"
+          },
+          {
+              "url":"week01/chamber-site-plan.html",
+              "title":"Chamber Site Plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"week04/tablebuild.html",
+            "title":"HTML Tables for Data Presentation"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"week05/prophets.html",
+            "title":"The Fetch API"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather API"
+          },
+          {
+              "url":"week05/new-ward-members.json",
+              "title":"JSON"
+          }
+        ]
+      }
+    
+  ]
+}
