@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huanuco Chamber of Commerce - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Nicole Zegarra's chamber website project assignment from WDD 230 - Web Frontend Development">
+    <meta name="author" content="Nicole Zegarra">
+    <meta property="og:title" content="Nicole's Chamber Website Project">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://4.bp.blogspot.com/-6x39_N4aZT8/UfgOerwv4mI/AAAAAAAACiw/vy1N-PtUgV0/s1600/huanuco.jpg">
+    <meta property="og:url" content="https://nicolezeg.github.io/wdd230/chamber/index.html">
+    <link rel="icon" href="favicon3.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="scripts/hamButton.js" defer=""></script>
+    <script src="scripts/getDates.js" defer=""></script>
+    <script src="scripts/weather.js" defer=""></script>
+    <script src="scripts/directory.js" defer=""></script>
+</head>
+<body>
+    <header>
+        <h1>Huanuco Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <ul class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="join.html">Join</a>
+        </ul>
+    </nav>
+    <main>
+        <main>
+            <section class="directory-controls">
+              <button id="gridView">Grid View</button>
+              <button id="listView">List View</button>
+            </section>
+            <section id="memberDirectory" class="grid"></section>
+          </main>          
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Huanuco Chamber <span id="peruvianFlag"></span> 🇵🇪</p>
+        <p>Nicole Zegarra</p>
+        <p>WDD 230 Project</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
