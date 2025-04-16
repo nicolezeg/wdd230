@@ -42,12 +42,12 @@
             "title":"WebP Image File Format"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week03/lazyload.html",
+            "title":"Lazy Loading"
           },
           {
-              "url":"week01/chamber-site-plan.html",
-              "title":"Chamber Site Plan"
+              "url":"week03/responsive-images.html",
+              "title":"Responsive Images"
           }
         ]
       },
